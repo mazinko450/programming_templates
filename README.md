@@ -1,12 +1,12 @@
 # Programming Template: A Repository of Project Templates
 
-[![GitHub stars](https://img.shields.io/github/stars/yourusername/template?style=social)](https://github.com/yourusername/template/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/yourusername/template?style=social)](https://github.com/yourusername/template/network/members)
-[![GitHub license](https://img.shields.io/github/license/yourusername/template)](https://github.com/yourusername/template/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/yourusername/template)](https://github.com/yourusername/template/issues)
+[![GitHub stars](https://img.shields.io/github/stars/mazinko405m/programming_templates?style=social)](https://github.com/mazinko405m/programming_templates/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/mazinko405m/programming_templates?style=social)](https://github.com/mazinko405m/programming_templates/network/members)
+[![GitHub license](https://img.shields.io/github/license/mazinko405/programming_templates)](https://github.com/mazinko405/programming_templates/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/mazinko405/programming_templates)](https://github.com/mazinko405/programming_templates/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
-Welcome to **Template** - your go-to resource for high-quality, ready-to-use project templates! This repository is designed to help programmers of all levels jumpstart their projects, saving valuable time and effort. Whether you're building a web application, a command-line tool, a data science project, or diving into any other coding adventure, you'll find a template here to get you started quickly and efficiently.
+Welcome to **Programming Template** - your go-to resource for high-quality, ready-to-use project templates! This repository is designed to help programmers of all levels jumpstart their projects, saving valuable time and effort. Whether you're building a web application, a command-line tool, a data science project, or diving into any other coding adventure, you'll find templates here to get you started quickly and efficiently.
 
 ## Why Use Programming Templates?
 
@@ -108,4 +108,4 @@ A huge thank you to all the contributors who have helped make this repository a 
 *   **Emphasis on Key Features:** Highlighted important features of the `python-package` template.
 *   **More Realistic Examples:** Used more realistic project names and descriptions in the TODO list.
 
-Remember to replace `yourusername` with your actual GitHub username, create the `LICENSE` file, and start building out those templates! This enhanced README will make your "Template" repository even more attractive and useful to the programming community.
+Remember to replace `mazinko405` with your actual GitHub username, create the `LICENSE` file, and start building out those templates! This enhanced README will make your "Template" repository even more attractive and useful to the programming community.
