@@ -1,7 +1,7 @@
 # Programming Template: A Repository of Project Templates
 
-[![GitHub stars](https://img.shields.io/github/stars/mazinko405m/programming_templates?style=social)](https://github.com/mazinko405m/programming_templates/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/mazinko405m/programming_templates?style=social)](https://github.com/mazinko405m/programming_templates/network/members)
+[![GitHub stars](https://img.shields.io/github/stars/mazinko405/programming_templates?style=social)](https://github.com/mazinko405/programming_templates/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/mazinko405/programming_templates?style=social)](https://github.com/mazinko405/programming_templates/network/members)
 [![GitHub license](https://img.shields.io/github/license/mazinko405/programming_templates)](https://github.com/mazinko405/programming_templates/blob/main/LICENSE)
 [![GitHub issues](https://img.shields.io/github/issues/mazinko405/programming_templates)](https://github.com/mazinko405/programming_templates/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
@@ -26,10 +26,10 @@ This repository currently hosts a variety of templates, including:
 
 ### Python
 
-*   **[`python-package`](python/python_package_template):** A comprehensive template for building distributable Python packages.
+*   **[`python-package`](python/python_package_template.toml):** A comprehensive template for building distributable Python packages.
     *   Ready for PyPI publication.
     *   Includes a well-configured `pyproject.toml`.
-    *   Pre-setup with testing (`pytest`), linting (`flake8`), formatting (`black`, `isort`).
+    *   Pre-setup with testing (`pytest`), linting (`flake8`), and formatting (`black`, `isort`).
 
 **(More templates are actively being developed! See our TODO list below.)**
 
