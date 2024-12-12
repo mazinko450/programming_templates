@@ -1,0 +1,154 @@
+# [build-system] - Tells build tools (like pip and build) what is needed to build your project.
+[build-system]
+    # These are the minimum requirements for a basic Python package using setuptools.
+    requires = [
+        "setuptools>=75.6.0", # Setuptools is the most common build tool for Python.
+        "wheel",              # Wheel is used to create "wheels," a distribution format for Python packages.
+    ]
+    # This specifies the "build backend," which is the actual program that performs the build.
+    build-backend = "setuptools.build_meta"
+
+# [project] -  This is the main section about your project's metadata.
+[project]
+    # The name of your project as it will be published on PyPI (Python Package Index).
+    name = "my_awesome_project" # Replace with your project's name
+
+    # The version of your project. Follow semantic versioning (SemVer) principles.
+    version = "0.1.0" # Replace with your project's version
+
+    # A short description of your project.
+    description = "A brief description of what My Awesome Project does."
+
+    # A longer description of your project that will be displayed on PyPI.
+    # Usually read from your README file.
+    readme = "README.md" # Point to the file containing your project's long description
+
+    # The Python versions your project is compatible with.
+    requires-python = ">=3.8"
+
+    # Keywords that describe your project. Useful for searching on PyPI.
+    keywords = ["example", "python", "awesome"]
+
+    # Who wrote the project?
+    authors = [{ name = "Your Name", email = "your.email@example.com" }]
+
+    # Who to contact for support, etc.?
+    maintainers = [
+        { name = "Maintainer Name", email = "maintainer.email@example.com" },
+    ]
+
+    # The license under which your project is distributed.
+    license = { text = "MIT License" } # Or use { file = "LICENSE" } to point to a LICENSE file
+
+    # URLs associated with your project (homepage, source code, issue tracker, etc.)
+    urls = [
+        # --- General Project Information ---
+        { name = "Homepage", value = "https://example.com" },                                                        # Your project's website or main landing page
+        { name = "Documentation", value = "https://my-awesome-project.readthedocs.io" },                             # Link to your project's documentation (if hosted separately, e.g., on Read the Docs)
+        { name = "Changelog", value = "https://github.com/yourusername/my_awesome_project/blob/main/CHANGELOG.md" }, # Link to your changelog file (e.g., CHANGELOG.md in your repository)
+        { name = "Release Notes", value = "https://github.com/yourusername/my_awesome_project/releases" },           # Directly to the releases page on GitHub
+
+        # --- Source Code & Development ---
+        { name = "Source Code", value = "https://github.com/yourusername/my_awesome_project" },         # Link to the source code repository (e.g., on GitHub)
+        { name = "Bug Tracker", value = "https://github.com/yourusername/my_awesome_project/issues" },  # Link to the issue tracker (e.g., on GitHub)
+        { name = "Pull Requests", value = "https://github.com/yourusername/my_awesome_project/pulls" }, # Link to the pull requests page on GitHub
+
+        # --- Community & Support ---
+        { name = "User Support", value = "https://gitter.im/my_awesome_project/community" }, # Link to community chat or forum (Gitter, Discord, etc.)
+        { name = "Twitter", value = "https://twitter.com/myawesomeproject" },                # Your project's Twitter handle
+
+        # --- Funding & Download ---
+        { name = "Funding", value = "https://donate.example.com" },                          # If you have a donation page or Open Collective
+        { name = "Download", value = "https://pypi.org/project/my-awesome-project/#files" }, # Link to PyPI downloads
+
+        # --- GitHub Statistics (Shields.io Badges) ---
+        { name = "GitHub Stars", value = "https://img.shields.io/github/stars/yourusername/my_awesome_project?style=social" },  # Badge showing the number of GitHub stars
+        { name = "GitHub Forks", value = "https://img.shields.io/github/forks/yourusername/my_awesome_project?style=social" },  # Badge showing the number of GitHub forks
+        { name = "GitHub Issues", value = "https://img.shields.io/github/issues/yourusername/my_awesome_project" },             # Badge showing the number of open GitHub issues
+        { name = "GitHub Pull Requests", value = "https://img.shields.io/github/issues-pr/yourusername/my_awesome_project" },   # Badge showing the number of open GitHub pull requests
+        { name = "GitHub Contributors", value = "https://img.shields.io/github/contributors/yourusername/my_awesome_project" }, # Badge showing the number of GitHub contributors
+        { name = "GitHub Last Commit", value = "https://img.shields.io/github/last-commit/yourusername/my_awesome_project" },   # Badge showing the date/time of the last GitHub commit
+        { name = "GitHub License", value = "https://img.shields.io/github/license/yourusername/my_awesome_project" },           # Badge showing the project's license from GitHub
+        { name = "CI/CD", value = "https://github.com/yourusername/my_awesome_project/actions" },                               # Link to your CI/CD pipeline (e.g., GitHub Actions)
+    ]
+
+    # Classifiers help categorize your project on PyPI.
+    # Find a list of classifiers here: https://pypi.org/classifiers/
+    classifiers = [
+        "Development Status :: 3 - Alpha",
+        "Intended Audience :: Developers",
+        "License :: OSI Approved :: MIT License",
+        "Programming Language :: Python :: 3",
+        "Programming Language :: Python :: 3.8",
+        "Programming Language :: Python :: 3.9",
+        "Programming Language :: Python :: 3.10",
+        "Programming Language :: Python :: 3.11",
+        "Programming Language :: Python :: 3 :: Only",
+        "Topic :: Software Development :: Libraries :: Python Modules",
+    ]
+
+    # Dependencies that your project requires to run.
+    dependencies = [
+        "requests>=2.32.3",   # Example: Requires the requests library, version 2.20 or higher.
+        "numpy",              # Example: Requires numpy, any version.
+        "pandas>=2.2.3,<2.0", # Example: Requires pandas, version 1.4 up to (but not including) 2.0.
+    ]
+
+    # Optional dependencies for different features or extras.
+    [project.optional-dependencies]
+        # Example: 'dev' extra for development dependencies
+        dev = ["pytest>=8.3.4", "flake8", "black", "isort", "mypy", "tox"]
+        # Example: 'docs' extra for documentation dependencies
+        docs = ["sphinx", "sphinx_rtd_theme"]
+        # Example: 'test' extra for test dependencies
+        test = ["pytest>=8.3.4", "pytest-cov"]
+
+    # [project.scripts] - Defines console scripts (command-line entry points).
+    [project.scripts]
+        # Example: Creates a command 'my-script' that runs the 'main' function in 'my_package.cli'
+        my-script = "my_package.cli:main"
+
+    # [project.gui-scripts] - Defines GUI scripts.
+    [project.gui-scripts]
+        # Example: Creates a GUI application 'my-gui-app' that runs 'main' in 'my_package.gui'
+        my-gui-app = "my_package.gui:main"
+
+    # [project.entry-points] -  A more general way to define entry points.
+    # This is useful for plugins and other advanced use cases.
+    [project.entry-points."my_package.plugin"] # my_package.plugin is an arbitrary name for a group of entry points
+        my_plugin = "my_package.some_module:some_object"
+
+        # --- Tool-Specific Configurations ---
+
+# [tool.setuptools] - Configuration for setuptools.
+[tool.setuptools]
+    # Include these packages and exclude these others.
+    # If packages is omitted, it will be automatically detected if either find or find-namespace is specified.
+    # If both find and find-namespace are omitted, no package discovery will be performed, and the packages key must be provided explicitly.
+
+    packages = [
+        "my_package",
+        "my_package.utils",
+        "my_package.cli",
+        "my_package.gui",
+    ]
+
+    # Where to find your package data (files that are not .py files)
+    include-package-data = true # Include all non-code files found in package directories
+
+    # [tool.setuptools.packages.find] - Controls automatic package discovery.
+    # If you want setuptools to automatically find your packages (recommended)
+    [tool.setuptools.packages.find]
+        # Specifies the root directory for package discovery (usually the project root).
+        where = ["."] # Default is the same directory as pyproject.toml
+        # Include only packages under this directory.
+        # include = ["my_package*"] # The default is to include everything.
+        # Exclude packages that match this pattern.
+        # exclude = ["my_package.tests*"]
+
+# [tool.pytest.ini_options] - Configuration for pytest (testing framework).
+[tool.pytest.ini_options]
+    # Run tests found in these directories.
+    testpaths = ["tests", "integration_tests"]
+    # Additional command-line arguments for pytest.
+    addopts = "--cov=my_package --cov-report=term-missing" # Example: Enable code coverage reporting.
