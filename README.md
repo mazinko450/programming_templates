@@ -1,9 +1,9 @@
 # Programming Template: A Repository of Project Templates
 
-[![GitHub stars](https://img.shields.io/github/stars/mazinko405/programming_templates?style=social)](https://github.com/mazinko405/programming_templates/stargazers)
-[![GitHub forks](https://img.shields.io/github/forks/mazinko405/programming_templates?style=social)](https://github.com/mazinko405/programming_templates/network/members)
-[![GitHub license](https://img.shields.io/github/license/mazinko405/programming_templates)](https://github.com/mazinko405/programming_templates/blob/main/LICENSE)
-[![GitHub issues](https://img.shields.io/github/issues/mazinko405/programming_templates)](https://github.com/mazinko405/programming_templates/issues)
+[![GitHub Stars](https://img.shields.io/github/stars/mazinko450/programming_templates?style=social)](https://github.com/mazinko450/programming_templates/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/mazinko450/programming_templates?style=social)](https://github.com/mazinko450/programming_templates/network/members)
+[![GitHub license](https://img.shields.io/github/license/mazinko450/programming_templates)](https://github.com/mazinko450/programming_templates/blob/main/LICENSE)
+[![GitHub issues](https://img.shields.io/github/issues/mazinko450/programming_templates)](https://github.com/mazinko450/programming_templates/issues)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 
 Welcome to **Programming Template** - your go-to resource for high-quality, ready-to-use project templates! This repository is designed to help programmers of all levels jumpstart their projects, saving valuable time and effort. Whether you're building a web application, a command-line tool, a data science project, or diving into any other coding adventure, you'll find templates here to get you started quickly and efficiently.
