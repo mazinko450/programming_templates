@@ -30,7 +30,7 @@
     keywords = ["example", "python", "awesome"]
 
     # Who wrote the project?
-    authors = [{ name = "Your Name", email = "your.email@example.com" }]
+    authors = ["Your Name", email = "your.email@example.com" }]
 
     # Who to contact for support, etc.?
     maintainers = [
@@ -39,38 +39,6 @@
 
     # The license under which your project is distributed.
     license = { text = "MIT License" } # Or use { file = "LICENSE" } to point to a LICENSE file
-
-    # URLs associated with your project (homepage, source code, issue tracker, etc.)
-    urls = [
-        # --- General Project Information ---
-        { name = "Homepage", value = "https://example.com" },                                                        # Your project's website or main landing page
-        { name = "Documentation", value = "https://my-awesome-project.readthedocs.io" },                             # Link to your project's documentation (if hosted separately, e.g., on Read the Docs)
-        { name = "Changelog", value = "https://github.com/yourusername/my_awesome_project/blob/main/CHANGELOG.md" }, # Link to your changelog file (e.g., CHANGELOG.md in your repository)
-        { name = "Release Notes", value = "https://github.com/yourusername/my_awesome_project/releases" },           # Directly to the releases page on GitHub
-
-        # --- Source Code & Development ---
-        { name = "Source Code", value = "https://github.com/yourusername/my_awesome_project" },         # Link to the source code repository (e.g., on GitHub)
-        { name = "Bug Tracker", value = "https://github.com/yourusername/my_awesome_project/issues" },  # Link to the issue tracker (e.g., on GitHub)
-        { name = "Pull Requests", value = "https://github.com/yourusername/my_awesome_project/pulls" }, # Link to the pull requests page on GitHub
-
-        # --- Community & Support ---
-        { name = "User Support", value = "https://gitter.im/my_awesome_project/community" }, # Link to community chat or forum (Gitter, Discord, etc.)
-        { name = "Twitter", value = "https://twitter.com/myawesomeproject" },                # Your project's Twitter handle
-
-        # --- Funding & Download ---
-        { name = "Funding", value = "https://donate.example.com" },                          # If you have a donation page or Open Collective
-        { name = "Download", value = "https://pypi.org/project/my-awesome-project/#files" }, # Link to PyPI downloads
-
-        # --- GitHub Statistics (Shields.io Badges) ---
-        { name = "GitHub Stars", value = "https://img.shields.io/github/stars/yourusername/my_awesome_project?style=social" },  # Badge showing the number of GitHub stars
-        { name = "GitHub Forks", value = "https://img.shields.io/github/forks/yourusername/my_awesome_project?style=social" },  # Badge showing the number of GitHub forks
-        { name = "GitHub Issues", value = "https://img.shields.io/github/issues/yourusername/my_awesome_project" },             # Badge showing the number of open GitHub issues
-        { name = "GitHub Pull Requests", value = "https://img.shields.io/github/issues-pr/yourusername/my_awesome_project" },   # Badge showing the number of open GitHub pull requests
-        { name = "GitHub Contributors", value = "https://img.shields.io/github/contributors/yourusername/my_awesome_project" }, # Badge showing the number of GitHub contributors
-        { name = "GitHub Last Commit", value = "https://img.shields.io/github/last-commit/yourusername/my_awesome_project" },   # Badge showing the date/time of the last GitHub commit
-        { name = "GitHub License", value = "https://img.shields.io/github/license/yourusername/my_awesome_project" },           # Badge showing the project's license from GitHub
-        { name = "CI/CD", value = "https://github.com/yourusername/my_awesome_project/actions" },                               # Link to your CI/CD pipeline (e.g., GitHub Actions)
-    ]
 
     # Classifiers help categorize your project on PyPI.
     # Find a list of classifiers here: https://pypi.org/classifiers/
@@ -92,6 +60,38 @@
         "requests>=2.32.3",   # Example: Requires the requests library, version 2.20 or higher.
         "numpy",              # Example: Requires numpy, any version.
         "pandas>=2.2.3,<2.0", # Example: Requires pandas, version 1.4 up to (but not including) 2.0.
+    ]
+
+        # URLs associated with your project (homepage, source code, issue tracker, etc.)
+    [project.urls]
+        # --- General Project Information ---
+        "Homepage" = "https://example.com" },                                                        # Your project's website or main landing page
+        "Documentation" = "https://my-awesome-project.readthedocs.io" },                             # Link to your project's documentation (if hosted separately, e.g., on Read the Docs)
+        "Changelog" = "https://github.com/yourusername/my_awesome_project/blob/main/CHANGELOG.md" }, # Link to your changelog file (e.g., CHANGELOG.md in your repository)
+        "Release Notes" = "https://github.com/yourusername/my_awesome_project/releases" },           # Directly to the releases page on GitHub
+
+        # --- Source Code & Development ---
+        "Source Code" = "https://github.com/yourusername/my_awesome_project" },         # Link to the source code repository (e.g., on GitHub)
+        "Bug Tracker" = "https://github.com/yourusername/my_awesome_project/issues" },  # Link to the issue tracker (e.g., on GitHub)
+        "Pull Requests" = "https://github.com/yourusername/my_awesome_project/pulls" }, # Link to the pull requests page on GitHub
+
+        # --- Community & Support ---
+        "User Support" = "https://gitter.im/my_awesome_project/community" }, # Link to community chat or forum (Gitter, Discord, etc.)
+        "Twitter" = "https://twitter.com/myawesomeproject" },                # Your project's Twitter handle
+
+        # --- Funding & Download ---
+        "Funding" = "https://donate.example.com" },                          # If you have a donation page or Open Collective
+        "Download" = "https://pypi.org/project/my-awesome-project/#files" }, # Link to PyPI downloads
+
+        # --- GitHub Statistics (Shields.io Badges) ---
+        "GitHub Stars" = "https://img.shields.io/github/stars/yourusername/my_awesome_project?style=social" },  # Badge showing the number of GitHub stars
+        "GitHub Forks" = "https://img.shields.io/github/forks/yourusername/my_awesome_project?style=social" },  # Badge showing the number of GitHub forks
+        "GitHub Issues" = "https://img.shields.io/github/issues/yourusername/my_awesome_project" },             # Badge showing the number of open GitHub issues
+        "GitHub Pull Requests" = "https://img.shields.io/github/issues-pr/yourusername/my_awesome_project" },   # Badge showing the number of open GitHub pull requests
+        "GitHub Contributors" = "https://img.shields.io/github/contributors/yourusername/my_awesome_project" }, # Badge showing the number of GitHub contributors
+        "GitHub Last Commit" = "https://img.shields.io/github/last-commit/yourusername/my_awesome_project" },   # Badge showing the date/time of the last GitHub commit
+        "GitHub License" = "https://img.shields.io/github/license/yourusername/my_awesome_project" },           # Badge showing the project's license from GitHub
+        "CI/CD" = "https://github.com/yourusername/my_awesome_project/actions" },                               # Link to your CI/CD pipeline (e.g., GitHub Actions)
     ]
 
     # Optional dependencies for different features or extras.
@@ -126,6 +126,8 @@
     # If packages is omitted, it will be automatically detected if either find or find-namespace is specified.
     # If both find and find-namespace are omitted, no package discovery will be performed, and the packages key must be provided explicitly.
 
+    package-dir = {"my_package" = "path/to/package"}
+
     packages = [
         "my_package",
         "my_package.utils",
@@ -138,9 +140,9 @@
 
     # [tool.setuptools.packages.find] - Controls automatic package discovery.
     # If you want setuptools to automatically find your packages (recommended)
-    [tool.setuptools.packages.find]
+    # [tool.setuptools.packages.find]
         # Specifies the root directory for package discovery (usually the project root).
-        where = ["."] # Default is the same directory as pyproject.toml
+        # where = ["."] # Default is the same directory as pyproject.toml
         # Include only packages under this directory.
         # include = ["my_package*"] # The default is to include everything.
         # Exclude packages that match this pattern.
